@@ -13,10 +13,20 @@ function PPierre() {
         <Nav />
       </div>
       <div className="container mt-5">
-        <img src={min1} className="img-fluid" alt="Pierre 1" />
-        <img src={min2} className="img-fluid" alt="Pierre 2" />
-        <img src={min3} className="img-fluid" alt="Pierre 3" />
-      </div>
+  <div className="row">
+    <div className="col-md-12">
+      <img src={min1} className="img-fluid mb-3" alt="Pierre 1" />
+    </div>
+    <div className="col-md-12">
+      <img src={min2} className="img-fluid mb-3" alt="Pierre 2" />
+    </div>
+    <div className="col-md-12">
+      <img src={min3} className="img-fluid mb-3" alt="Pierre 3" />
+    </div>
+  </div>
+</div>
+
+
     </>
   );
 }
