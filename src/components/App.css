@@ -1,41 +1,41 @@
+#main {
+  width: 100%;
+  height: 850px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/background.png');
+}
 
-    #main {
-    width: 100%;
-    height: 850px;
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url('../images/background.png');
-  }
-  
-  nav {
-    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.336);
-    z-index: 1;
-  }
-  
+nav {
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.336);
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.8); /* Ajout de la couleur de fond avec une opacité */
+}
 
-  nav ul li a {
-    font-family: Calibri;
-    height: 40px;
-    line-height: 25px;
-    margin: 3px;
-    padding: 0px 22px;
-    display: flex;
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    font-weight: 500;
-    color: #ffffff;
-    letter-spacing: 1px;
-    border-radius: 3px;
-    transition: 0.2s ease-in-out;
-  }
-  
-  .navbar-nav .nav-link:hover, .active {
-    background-color: #fdba01;
-    color: #000000;
-    box-shadow: 5px 10px 30px rgba(189, 198, 64, 0.411);
-    transition: all ease 0.2s;
-  }
+nav ul li a {
+  font-family: Calibri;
+  height: 40px;
+  line-height: 25px;
+  margin: 3px;
+  padding: 0px 22px;
+  display: flex;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #fdba01;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  transition: 0.2s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover, .active {
+  background-color: #dadada;
+  color: #000000;
+  box-shadow: 5px 10px 30px rgba(189, 198, 64, 0.411);
+  transition: all ease 0.2s;
+}
+
 
   body {
     font-family: 'Roboto', sans-serif;
@@ -51,7 +51,7 @@
   
   
   .navbar-nav .nav-link {
-    color: white !important;
+    color: #fdba01 !important;
     margin: 0 10px;
   }
   
@@ -98,7 +98,6 @@
   
   .name span {
     color: #fdba01;
-    border-bottom: 2px solid #fdba01;
   }
   
   .name .details {
@@ -106,11 +105,9 @@
   }
   
   .name h1 {
-    font-family: 'Montserrat';
-    font-size: 46px;
-    margin: 0px;
-    letter-spacing: 3px;
-    color: #131111;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #000000;
   }
   
   .header-btns {
@@ -142,12 +139,7 @@
     color: #ffffff;
     margin-left: 20px;
   }
-  
-  .cv-btn:hover, .cv-btn1:hover {
-    background-color: #ffffff;
-    transition: all ease 0.5s;
-    color: #000266;
-  }
+
   
   .arrow {
     align-self: end;
@@ -182,124 +174,7 @@
       opacity: 1;
     }
   }
-  
-  .f-heading h1 {
-    color: #FFFFFF;
-    font-size: 2.5rem;
-    margin: 0px;
-    padding: 0px;
-  }
-  
-  .f-heading p {
-    color: rgba(247, 247, 247, 0.678);
-    font-size: 1rem;
-    margin-top: 10px;
-    padding: 0px;
-  }
-  
-  .f-heading {
-    text-align: center;
-    margin-top: 60px;
-    margin-bottom: -120px;
-  }
-  
-  #features {
-    margin-top: 140px;
-    width: 100%;
-    height: 120vh;
-    background-color: #000000;
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 50px 5% 0px 5%;
-    position: relative;
-  }
-  
-  .features-text {
-    width: 45%;
-    color: #fff;
-    list-style: circle;
-  }
-  
-  .features-text h2 {
-    font-size: 2rem;
-    color: #fdba01;
-    font-weight: 400;
-  }
-  
-  .features-text p {
-    font-size: 1.2rem;
-    color: #b4b4b4;
-  }
-  
-  .features-text button {
-    margin-top: 20px;
-    width: 140px;
-    height: 40px;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    color: #000266;
-    background-color: #fdba01;
-  }
-  
-  .features-text button:hover {
-    background-color: #ffffff;
-    transition: all ease 0.3s;
-    color: #000266;
-  }
-  
-  .features-model {
-    width: 50%;
-  }
-  
-  .features-model img {
-    width: 500px;
-  }
-  
-  #services {
-    margin-top: 120px;
-    width: 100%;
-    height: 100vh;
-    box-sizing: border-box;
-    font-family: calibri;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 40px;
-  }
-  
-  .s-heading h1 {
-    color: #FFFFFF;
-    font-size: 3rem;
-    margin: 0px;
-    padding: 0px;
-  }
-  
-  .s-heading p {
-    color: rgba(247, 247, 247, 0.678);
-    font-size: 1rem;
-    margin: 0px;
-    padding: 0px;
-  }
-  
-  .s-heading {
-    text-align: center;
-    margin: 20px 0px;
-  }
-  
-  .s-box {
-    background-color: #ffffff;
-    width: 350px;
-    height: 470px;
-    margin: 20px;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
-    position: relative;
-  }
+
   
   .b-container {
     display: flex;
@@ -307,78 +182,5 @@
     align-content: center;
   }
   
-  .s-b-img {
-    width: 100%;
-    height: 50%;
-  }
-  
-  .s-b-img img {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .s-b-text {
-    width: 100%;
-    height: 40%;
-    background-color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-  }
-  
-  .s-b-text p {
-    margin: 0px;
-    color: #000266a6;
-    font-size: 1.1rem;
-    font-family: calibri;
-    display: block;
-    display: -webkit-box;
-    max-width: 80%;
-    margin-top: 25px;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-  
-  .s-b-text p:hover {
-    color: #000266;
-  }
-  
-  .s-b-text a {
-    margin-top: 15px;
-  }
-  
-  .s-type {
-    font-family: calibri;
-    color: #000266;
-    background-color: #ffffff;
-    padding: 10px 15px;
-    position: absolute;
-    top: 0px;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 18px;
-    font-weight: 500;
-  }
-  
-  .s-btn {
-    margin-top: 5px;
-    width: 100px;
-    height: 40px;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    color: #000266;
-    background-color: #fdba01;
-  }
-  
-  .s-btn:hover {
-    background-color: #ffffff;
-    transition: all ease 0.3s;
-    color: #000266;
-  }
 
   
