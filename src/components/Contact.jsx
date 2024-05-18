@@ -9,7 +9,7 @@ const Contact = () => {
         <div className="form-group">
           <label htmlFor="email">Numéro de telephone</label>
         </div>
-        <label htmlFor="email">06 66 66 66 66</label>
+        <label htmlFor="email">+212 703 120111</label>
       </form>
     </section>
   );
