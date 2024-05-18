@@ -1,0 +1,13 @@
+#contact {
+    padding: 60px 0;
+  }
+  
+  .form-control {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  button {
+    font-family: 'Roboto', sans-serif;
+  }
+  
